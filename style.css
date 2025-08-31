@@ -258,7 +258,10 @@ padding:9px 17px;
     width: 100%; /* full width */
     padding: 15px;
   }
-
+  .quiz-header,
+  .quiz-footer {
+    padding: 12px 18px;gap:10px;
+  }
   .quiz-header .quiz-title,
   .quiz-content .question-text {
     font-size: 1.1rem;
@@ -315,3 +318,4 @@ padding:9px 17px;
     width: 600px; /* bigger screens can have more space */
   }
 }
+
