@@ -215,40 +215,7 @@ padding:9px 17px;
     padding: 12px 20px;
    }
 
-   /*media query for small devices
-   @media(max-width:620px){
-
-    .config-container,.quiz-container .quiz-content{
-        padding:20px;
-    }
-
-    .quiz-content .answer-option{
-        padding: 12px 10px 12px 14px;
-    }
-
-    .config-container .question-options{
-        padding:0 15px;
-    }
-
-    .quiz-container .quiz-header, .quiz-container .quiz-footer{
-        padding:13px 20px;
-    }
-
-
-    .quiz-header .quiz-title, .quiz-content .question-text{
-        font-size: 1.3rem;
-    }
-    .result-container{
-        padding: 40px 20px;
-    }
-
-    .result-container .result-title{
-        font-size: 1.4rem;
-    }
-
-   }
-*/
-/* --- MEDIA QUERIES --- */
+  
 
 /* Extra Small Devices (Mobile Portrait ≤480px) */
 @media (max-width: 480px) {
@@ -315,7 +282,7 @@ padding:9px 17px;
   .config-container,
   .quiz-container,
   .result-container {
-    width: 600px; /* bigger screens can have more space */
-  }
+    width: 600px; 
 }
+
 
